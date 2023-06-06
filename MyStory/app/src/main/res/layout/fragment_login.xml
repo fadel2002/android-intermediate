@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.login.LoginFragment">
+
+    <ImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/app_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"/>
+
+    <TextView
+        android:id="@+id/tv_please_sign_in"
+        android:alpha="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/please_sign_in"
+        app:layout_constraintStart_toStartOf="@+id/et_email"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+    <com.dicoding.mystory.views.CustomEmailEditText
+        android:id="@+id/et_email"
+        android:alpha="0"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_border_rectangle"
+        android:hint="@string/placeholder_email"
+        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_please_sign_in" />
+
+    <com.dicoding.mystory.views.CustomPasswordEditText
+        android:id="@+id/et_password"
+        android:alpha="0"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_border_rectangle"
+        android:hint="@string/placeholder_password"
+        android:paddingHorizontal="10dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/et_email" />
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:alpha="0"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/action_sign_in_short"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+    <TextView
+        android:id="@+id/tv_to_register"
+        android:alpha="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_have_account"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_sign_in"
+        app:layout_constraintStart_toStartOf="@+id/button_sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/button_sign_in" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

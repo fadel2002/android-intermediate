@@ -1,0 +1,47 @@
+{
+  "version": "8",
+  "name": "Custom Map Style",
+  "styles": {
+    "poi": [
+      {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [
+          { "visibility": "off" }
+        ]
+      }
+    ],
+    "landscape": [
+      {
+        "featureType": "landscape.natural",
+        "stylers": [
+          { "color": "#F8F8F8" }
+        ]
+      }
+    ],
+    "road": [
+      {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+          { "color": "#CCCCCC" }
+        ]
+      },
+      {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+          { "visibility": "off" }
+        ]
+      }
+    ],
+    "water": [
+      {
+        "featureType": "water",
+        "stylers": [
+          { "color": "#A0C6E5" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MyStory</string>
+    <string name="app_path">com.dicoding.mystory</string>
+    <!-- Strings related to login -->
+    <string name="placeholder_username">Enter your username...</string>
+    <string name="placeholder_email">Enter your email...</string>
+    <string name="placeholder_password">Enter your password...</string>
+    <string name="prompt_username">Username</string>
+    <string name="please_sign_in">Please sign in to your account!</string>
+    <string name="please_sign_up">Please make your own account!</string>
+    <string name="please_fill_in_the_fields_correctly">Please fill in the fields correctly</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+    <string name="login_success">Login success</string>
+    <string name="logout">Logout button</string>
+    <string name="logout_failed">Logout failed</string>
+    <string name="logout_success">Logout success</string>
+    <string name="registration_failed">Registration failed, please try again</string>
+    <string name="account_created_successfully">Account created successfully, please login</string>
+    <string name="user_not_found">User not found, please try again</string>
+    <string name="add_story_button">Add story button</string>
+    <string name="dummy_name">John Doe</string>
+    <string name="dummy_date">02 03 2023</string>
+    <string name="dummy_text">It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is the most adaptable to change</string>
+    <string name="dont_have_account">Don\'t have an account? <u>Sign up now</u></string>
+    <string name="description">Description</string>
+    <string name="already_have_account">Already have an account? <u>Sign in now</u></string>
+    <string name="error">Error</string>
+    <string name="label_loading">Loading</string>
+    <string name="story_photo">Story Photo</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="select_image">Select image</string>
+    <string name="email_taken">Email is already taken</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="an_image_needs_to_be_uploaded">An image needs to be uploaded</string>
+    <string name="map">Map Button</string>
+    <string name="retry">Retry</string>
+</resources>
